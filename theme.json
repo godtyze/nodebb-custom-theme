@@ -4,5 +4,4 @@
     "description": "Custom theme for GREEN-API",
     "url": "https://github.com/godtyze/nodebb-custom-theme",
     "screenshot": "screenshot.png",
-    "baseTheme": "nodebb-theme-persona"
 }
