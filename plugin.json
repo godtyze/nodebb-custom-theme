@@ -1,5 +1,5 @@
 {
-	"id": "nodebb-custom-theme",
+	"id": "nodebb-theme-custom",
 	"hooks": [
 		{ "hook": "filter:widgets.getAreas", "method": "defineWidgetAreas" },
 		{ "hook": "filter:config.get", "method": "getThemeConfig" },
