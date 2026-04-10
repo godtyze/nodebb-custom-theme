@@ -1,7 +1,8 @@
 {
-    "id": "nodebb-theme-persona",
-    "name": "Persona",
-    "description": "A previous default theme for NodeBB (from 2015-2023). Uses a standard approach to forum design.",
-    "url": "https://github.com/NodeBB/nodebb-theme-persona",
-    "screenshot": "screenshot.png"
+    "id": "nodebb-custom-theme",
+    "name": "GREEN-API Custom Theme",
+    "description": "Custom theme for GREEN-API",
+    "url": "https://github.com/godtyze/nodebb-custom-theme",
+    "screenshot": "screenshot.png",
+    "baseTheme": "nodebb-theme-persona"
 }
