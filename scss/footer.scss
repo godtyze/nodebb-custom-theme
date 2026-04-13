@@ -1,6 +1,7 @@
 :root {
   --footer-background: #1a1a1a;
   --footer-color: #e0e0e0;
+  --main-color: #3b9702;
 
   --footer-mobile: 500px;
   --footer-laptop: 744px;
@@ -115,12 +116,16 @@ footer ul {
 .links-header {
   font-size: 16px;
   font-weight: bold;
-  color: var(--md-typeset-a-color);
+  color: var(--main-color);
 }
 
 .footer-main__link {
   font-size: 14px;
   transition: color 0.3s ease-in-out;
+
+  &:hover {
+    color: var(--main-color);
+  }
 }
 
 .links-list-wrapper {
@@ -309,7 +314,7 @@ footer ul {
 }
 
 .footer-telephone {
-  color: var(--md-typeset-a-color);
+  color: var(--main-color);
   text-decoration: underline;
 }
 

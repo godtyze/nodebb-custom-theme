@@ -153,3 +153,48 @@ a.permalink {
 .disabled a {
 	pointer-events: none;
 }
+
+:root, [data-bs-theme=light] {
+  --bs-link-color-rgb: 59, 151, 2;
+  --bs-link-hover-color-rgb: 45, 115, 1;
+  --bs-link-color: rgb(59, 151, 2);
+  --bs-link-hover-color: rgb(45, 115, 1);
+}
+
+.btn-primary {
+  --bs-btn-bg: rgb(59, 151, 2);
+  --bs-btn-border-color: rgb(59, 151, 2);
+  --bs-btn-hover-bg: rgb(45, 115, 1);
+  --bs-btn-active-bg: rgb(45, 115, 1);
+  --bs-btn-hover-border-color: rgb(45, 115, 1);
+  --bs-btn-active-border-color: rgb(45, 115, 1);
+}
+
+.dropdown-item:active {
+  background-color: var(--bs-dropdown-link-hover-bg);
+  color: var(--bs-dropdown-link-color);
+}
+
+.topic [component="post/downvote"].downvoted i,
+.topic [component="post/upvote"].upvoted i {
+  color: rgb(var(--bs-link-color-rgb));
+}
+
+.container-lg {
+  @media (min-width: 1700px) {
+    max-width: 1520px;
+  }
+
+  @media (min-width: 2000px) {
+    max-width: 1920px;
+  }
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.container, .content-wrapper, main {
+  flex: 1 0 auto;
+}
