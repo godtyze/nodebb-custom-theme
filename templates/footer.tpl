@@ -147,40 +147,40 @@
                                 <li><a class="footer-main__link group-link-item"
                                        href="https://green-api.com/ru/forum"
                                        target="_blank" rel="noreferrer">
-                                    <img src="/assets/plugins/nodebb-custom-theme/images/github.svg" loading="lazy" alt="github icon" width="25"
+                                    <img src="/assets/plugins/nodebb-custom-theme/images/icons/github.svg" loading="lazy" alt="github icon" width="25"
                                          height="25"/>
                                     <span>Форум</span>
                                 </a></li>
                                 <li><a class="footer-main__link group-link-item"
                                        href="https://github.com/green-api/issues/issues/new"
                                        target="_blank" rel="noreferrer">
-                                    <img src="/assets/plugins/nodebb-custom-theme/images/github.svg" loading="lazy" alt="github icon" width="25"
+                                    <img src="/assets/plugins/nodebb-custom-theme/images/icons/github.svg" loading="lazy" alt="github icon" width="25"
                                          height="25"/>
                                     <span>Сообщить о проблеме</span>
                                 </a></li>
                                 <li><a class="footer-main__link group-link-item" href="mailto:support@green-api.com"
                                        target="_blank" rel="noreferrer">
-                                    <img src="/assets/plugins/nodebb-custom-theme/images/email.svg" loading="lazy" alt="email icon" width="25"
+                                    <img src="/assets/plugins/nodebb-custom-theme/images/icons/email.svg" loading="lazy" alt="email icon" width="25"
                                          height="25"/>
                                     <span>support@green-api.com</span>
                                 </a></li>
                                 <li><a class="footer-main__link group-link-item" href="https://wa.me/77780739095"
                                        target="_blank" rel="noreferrer">
-                                    <img src="/assets/plugins/nodebb-custom-theme/images/whatsapp.svg" loading="lazy" alt="whatsapp icon" width="25"
+                                    <img src="/assets/plugins/nodebb-custom-theme/images/icons/whatsapp.svg" loading="lazy" alt="whatsapp icon" width="25"
                                          height="25"/>
                                     <span>Канал поддержки WhatsApp</span>
                                 </a></li>
                                 <li><a class="footer-main__link group-link-item"
                                        href="https://t.me/greenapi_support_ru_bot"
                                        target="_blank" rel="noreferrer">
-                                    <img src="/assets/plugins/nodebb-custom-theme/images/telegram.svg" loading="lazy" alt="telegram icon" width="25"
+                                    <img src="/assets/plugins/nodebb-custom-theme/images/icons/telegram.svg" loading="lazy" alt="telegram icon" width="25"
                                          height="25"/>
                                     <span>Канал поддержки Telegram</span>
                                 </a></li>
                                 <li><a class="footer-main__link group-link-item"
                                        href="https://max.ru/id5047259512_bot"
                                        target="_blank" rel="noreferrer">
-                                    <img src="/assets/plugins/nodebb-custom-theme/images/max.svg" loading="lazy" alt="max icon" width="25"
+                                    <img src="/assets/plugins/nodebb-custom-theme/images/icons/max.svg" loading="lazy" alt="max icon" width="25"
                                          height="25"/>
                                     <span>Канал поддержки MAX</span>
                                 </a></li>
@@ -191,12 +191,12 @@
                                 <a href="https://play.google.com/store/apps/details?id=com.greenapi.console"
                                    target="_blank"
                                    rel="noreferrer">
-                                    <img width="135" src="/assets/plugins/nodebb-custom-theme/images/mobile-application/googleplay-ru-white.svg"
+                                    <img width="135" src="/assets/plugins/nodebb-custom-theme/images/mobile-apps/googleplay-ru-white.svg"
                                          alt="googlePlay"/>
                                 </a>
                                 <a href="https://www.rustore.ru/catalog/app/com.greenapi.console" target="_blank"
                                    rel="noreferrer">
-                                    <img width="135" src="/assets/plugins/nodebb-custom-theme/images/mobile-application/rustore-white.svg"
+                                    <img width="135" src="/assets/plugins/nodebb-custom-theme/images/mobile-apps/rustore-white.svg"
                                          alt="googlePlay"/>
                                 </a>
                                 <a
@@ -206,7 +206,7 @@
                                     <img
                                             width="135"
                                             alt="Powered by GREEN-API"
-                                            src="/assets/plugins/nodebb-custom-theme/images/powered_green_api.svg"
+                                            src="/assets/plugins/nodebb-custom-theme/images/powered-green-api.png"
                                     />
                                 </a>
                             </div>
@@ -269,7 +269,7 @@
                             rel="noreferrer"
                     >
                         <span class="icon">
-                          <img width="30" height="30" src="/assets/plugins/nodebb-custom-theme/images/whatsappWhite.svg" alt="WhatsApp"/>
+                          <img width="30" height="30" src="/assets/plugins/nodebb-custom-theme/images/icons/whatsappWhite.svg" alt="WhatsApp"/>
                         </span>
                     </a>
                 </div>
@@ -281,7 +281,7 @@
                             rel="noreferrer"
                     >
                         <span class="icon">
-                          <img width="30" height="30" src="/assets/plugins/nodebb-custom-theme/images/telegramWhite.svg" alt="Telegram"/>
+                          <img width="30" height="30" src="/assets/plugins/nodebb-custom-theme/images/icons/telegramWhite.svg" alt="Telegram"/>
                         </span>
                     </a>
                 </div>
@@ -293,7 +293,7 @@
                             rel="noreferrer"
                     >
                         <span class="icon">
-                          <img width="30" height="30" src="/assets/plugins/nodebb-custom-theme/images/youtube.svg" alt="YouTube"/>
+                          <img width="30" height="30" src="/assets/plugins/nodebb-custom-theme/images/icons/youtube.svg" alt="YouTube"/>
                         </span>
                     </a>
                 </div>
@@ -305,7 +305,7 @@
                             rel="noreferrer"
                     >
                         <span class="icon">
-                          <img width="30" height="30" src="/assets/plugins/nodebb-custom-theme/images/rutube.svg" alt="RuTube"/>
+                          <img width="30" height="30" src="/assets/plugins/nodebb-custom-theme/images/icons/rutube.svg" alt="RuTube"/>
                         </span>
                     </a>
                 </div>
@@ -317,7 +317,7 @@
                             rel="noreferrer"
                     >
                         <span class="icon">
-                          <img width="30" height="30" src="/assets/plugins/nodebb-custom-theme/images/linkedin.svg" alt="LinkedIn"/>
+                          <img width="30" height="30" src="/assets/plugins/nodebb-custom-theme/images/icons/linkedin.svg" alt="LinkedIn"/>
                         </span>
                     </a>
                 </div>
@@ -329,7 +329,7 @@
                 <!--                  rel="noreferrer"-->
                 <!--          >-->
                 <!--                        <span class="icon">-->
-                <!--                          <img width="30" height="30" src="/assets/plugins/nodebb-custom-theme/images/instagram.svg" alt="Instagram"/>-->
+                <!--                          <img width="30" height="30" src="/assets/plugins/nodebb-custom-theme/images/icons/instagram.svg" alt="Instagram"/>-->
                 <!--                        </span>-->
                 <!--          </a>-->
                 <!--        </div>-->
@@ -339,7 +339,7 @@
                 <!--             target="_blank"-->
                 <!--             rel="noreferrer">-->
                 <!--                        <span class="icon">-->
-                <!--                          <img width="30" height="30" src="/assets/plugins/nodebb-custom-theme/images/facebook.svg" alt="Facebook"/>-->
+                <!--                          <img width="30" height="30" src="/assets/plugins/nodebb-custom-theme/images/icons/facebook.svg" alt="Facebook"/>-->
                 <!--                        </span>-->
                 <!--          </a>-->
                 <!--        </div>-->
@@ -351,7 +351,7 @@
                             rel="noreferrer"
                     >
                         <span class="icon">
-                          <img width="30" height="30" src="/assets/plugins/nodebb-custom-theme/images/dzen.svg" alt="Dzen"/>
+                          <img width="30" height="30" src="/assets/plugins/nodebb-custom-theme/images/icons/dzen.svg" alt="Dzen"/>
                         </span>
                     </a>
                 </div>
@@ -363,7 +363,7 @@
                             rel="noreferrer"
                     >
                         <span class="icon">
-                          <img width="30" height="30" src="/assets/plugins/nodebb-custom-theme/images/vk.svg" alt="VK"/>
+                          <img width="30" height="30" src="/assets/plugins/nodebb-custom-theme/images/icons/vk.svg" alt="VK"/>
                         </span>
                     </a>
                 </div>
@@ -433,7 +433,7 @@
                             rel="noreferrer"
                     >
                         <span class="icon">
-                          <img width="30" height="30" src="/assets/plugins/nodebb-custom-theme/images/whatsappWhite.svg" alt="WhatsApp"/>
+                          <img width="30" height="30" src="/assets/plugins/nodebb-custom-theme/images/icons/whatsappWhite.svg" alt="WhatsApp"/>
                         </span>
                     </a>
                 </div>
@@ -445,7 +445,7 @@
                             rel="noreferrer"
                     >
                         <span class="icon">
-                          <img width="30" height="30" src="/assets/plugins/nodebb-custom-theme/images/telegramWhite.svg" alt="Telegram"/>
+                          <img width="30" height="30" src="/assets/plugins/nodebb-custom-theme/images/icons/telegramWhite.svg" alt="Telegram"/>
                         </span>
                     </a>
                 </div>
@@ -457,7 +457,7 @@
                             rel="noreferrer"
                     >
                         <span class="icon">
-                          <img width="30" height="30" src="/assets/plugins/nodebb-custom-theme/images/youtube.svg" alt="YouTube"/>
+                          <img width="30" height="30" src="/assets/plugins/nodebb-custom-theme/images/icons/youtube.svg" alt="YouTube"/>
                         </span>
                     </a>
                 </div>
@@ -469,7 +469,7 @@
                             rel="noreferrer"
                     >
                         <span class="icon">
-                          <img width="30" height="30" src="/assets/plugins/nodebb-custom-theme/images/rutube.svg" alt="RuTube"/>
+                          <img width="30" height="30" src="/assets/plugins/nodebb-custom-theme/images/icons/rutube.svg" alt="RuTube"/>
                         </span>
                     </a>
                 </div>
@@ -481,7 +481,7 @@
                             rel="noreferrer"
                     >
                         <span class="icon">
-                          <img width="30" height="30" src="/assets/plugins/nodebb-custom-theme/images/linkedin.svg" alt="LinkedIn"/>
+                          <img width="30" height="30" src="/assets/plugins/nodebb-custom-theme/images/icons/linkedin.svg" alt="LinkedIn"/>
                         </span>
                     </a>
                 </div>
@@ -493,7 +493,7 @@
                             rel="noreferrer"
                     >
                         <span class="icon">
-                          <img width="30" height="30" src="/assets/plugins/nodebb-custom-theme/images/instagram.svg" alt="Instagram"/>
+                          <img width="30" height="30" src="/assets/plugins/nodebb-custom-theme/images/icons/instagram.svg" alt="Instagram"/>
                         </span>
                     </a>
                 </div>
@@ -505,7 +505,7 @@
                             rel="noreferrer"
                     >
                         <span class="icon">
-                          <img width="30" height="30" src="/assets/plugins/nodebb-custom-theme/images/dzen.svg" alt="Dzen"/>
+                          <img width="30" height="30" src="/assets/plugins/nodebb-custom-theme/images/icons/dzen.svg" alt="Dzen"/>
                         </span>
                     </a>
                 </div>
@@ -517,18 +517,18 @@
                             rel="noreferrer"
                     >
                         <span class="icon">
-                          <img width="30" height="30" src="/assets/plugins/nodebb-custom-theme/images/vk.svg" alt="VK"/>
+                          <img width="30" height="30" src="/assets/plugins/nodebb-custom-theme/images/icons/vk.svg" alt="VK"/>
                         </span>
                     </a>
                 </div>
             </div>
             <div class="payments-list">
-                <img src="/assets/plugins/nodebb-custom-theme/images/pay/mirPayment.svg" width="54" height="20" alt="MIR">
-                <img src="/assets/plugins/nodebb-custom-theme/images/pay/mirAcceptPayment.svg" width="36" height="20" alt="MIRAccept">
-                <img src="/assets/plugins/nodebb-custom-theme/images/pay/visaPayment.svg" width="46" height="20" alt="VISA">
-                <img src="/assets/plugins/nodebb-custom-theme/images/pay/visaVerifiedPayment.svg" width="34" height="20" alt="verified by visa">
-                <img src="/assets/plugins/nodebb-custom-theme/images/pay/mastercardPayment.svg" width="29" height="30" alt="mastercard">
-                <img src="/assets/plugins/nodebb-custom-theme/images/pay/masterCardSecureCodePayment.svg" width="40" height="20"
+                <img src="/assets/plugins/nodebb-custom-theme/images/payments/mirPayment.svg" width="54" height="20" alt="MIR">
+                <img src="/assets/plugins/nodebb-custom-theme/images/payments/mirAcceptPayment.svg" width="36" height="20" alt="MIRAccept">
+                <img src="/assets/plugins/nodebb-custom-theme/images/payments/visaPayment.svg" width="46" height="20" alt="VISA">
+                <img src="/assets/plugins/nodebb-custom-theme/images/payments/visaVerifiedPayment.svg" width="34" height="20" alt="verified by visa">
+                <img src="/assets/plugins/nodebb-custom-theme/images/payments/mastercardPayment.svg" width="29" height="30" alt="mastercard">
+                <img src="/assets/plugins/nodebb-custom-theme/images/payments/masterCardSecureCodePayment.svg" width="40" height="20"
                      alt="mastercard SecureCode">
             </div>
         </div>
