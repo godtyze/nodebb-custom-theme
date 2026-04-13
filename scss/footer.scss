@@ -122,6 +122,7 @@ footer ul {
 .footer-main__link {
   font-size: 14px;
   transition: color 0.3s ease-in-out;
+  color: inherit;
 
   &:hover {
     color: var(--main-color);
