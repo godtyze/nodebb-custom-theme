@@ -1,6 +1,6 @@
 {
   "name": "nodebb-theme-custom",
-  "version": "14.2.34",
+  "version": "0.0.1",
   "nbbpm": {
     "compatibility": "^4.0.0"
   },
