@@ -226,11 +226,11 @@
                 <div class="mobile-apps-list">
                     <a href="https://play.google.com/store/apps/details?id=com.greenapi.console" target="_blank"
                        rel="noreferrer">
-                        <img width="135" src="/assets/plugins/nodebb-theme-custom/images/mobile-application/googleplay-ru-white.svg"
+                        <img width="135" src="/assets/plugins/nodebb-theme-custom/images/mobile-apps/google-play.svg"
                              alt="googlePlay"/>
                     </a>
                     <a href="https://www.rustore.ru/catalog/app/com.greenapi.console" target="_blank" rel="noreferrer">
-                        <img width="135" src="/assets/plugins/nodebb-theme-custom/images/mobile-application/rustore-white.svg" alt="googlePlay"/>
+                        <img width="135" src="/assets/plugins/nodebb-theme-custom/images/mobile-apps/rustore    .svg" alt="googlePlay"/>
                     </a>
                     <a
                             href="https://green-api.com/"
@@ -239,7 +239,7 @@
                         <img
                                 width="135"
                                 alt="Powered by GREEN-API"
-                                src="/assets/plugins/nodebb-theme-custom/images/powered_green_api.svg"
+                                src="/assets/plugins/nodebb-theme-custom/images/powered-green-api.png"
                         />
                     </a>
                 </div>
