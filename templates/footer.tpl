@@ -191,12 +191,12 @@
                                 <a href="https://play.google.com/store/apps/details?id=com.greenapi.console"
                                    target="_blank"
                                    rel="noreferrer">
-                                    <img width="135" src="/assets/plugins/nodebb-theme-custom/images/mobile-apps/googleplay-ru-white.svg"
+                                    <img width="135" src="/assets/plugins/nodebb-theme-custom/images/mobile-apps/google-play.svg"
                                          alt="googlePlay"/>
                                 </a>
                                 <a href="https://www.rustore.ru/catalog/app/com.greenapi.console" target="_blank"
                                    rel="noreferrer">
-                                    <img width="135" src="/assets/plugins/nodebb-theme-custom/images/mobile-apps/rustore-white.svg"
+                                    <img width="135" src="/assets/plugins/nodebb-theme-custom/images/mobile-apps/rustore.svg"
                                          alt="googlePlay"/>
                                 </a>
                                 <a
@@ -523,12 +523,12 @@
                 </div>
             </div>
             <div class="payments-list">
-                <img src="/assets/plugins/nodebb-theme-custom/images/payments/mirPayment.svg" width="54" height="20" alt="MIR">
-                <img src="/assets/plugins/nodebb-theme-custom/images/payments/mirAcceptPayment.svg" width="36" height="20" alt="MIRAccept">
-                <img src="/assets/plugins/nodebb-theme-custom/images/payments/visaPayment.svg" width="46" height="20" alt="VISA">
-                <img src="/assets/plugins/nodebb-theme-custom/images/payments/visaVerifiedPayment.svg" width="34" height="20" alt="verified by visa">
-                <img src="/assets/plugins/nodebb-theme-custom/images/payments/mastercardPayment.svg" width="29" height="30" alt="mastercard">
-                <img src="/assets/plugins/nodebb-theme-custom/images/payments/masterCardSecureCodePayment.svg" width="40" height="20"
+                <img src="/assets/plugins/nodebb-theme-custom/images/payments/mir.svg" width="54" height="20" alt="MIR">
+                <img src="/assets/plugins/nodebb-theme-custom/images/payments/mir-accept.svg" width="36" height="20" alt="MIRAccept">
+                <img src="/assets/plugins/nodebb-theme-custom/images/payments/visa.svg" width="46" height="20" alt="VISA">
+                <img src="/assets/plugins/nodebb-theme-custom/images/payments/verified-by-visa.svg" width="34" height="20" alt="verified by visa">
+                <img src="/assets/plugins/nodebb-theme-custom/images/payments/master-card.svg" width="29" height="30" alt="mastercard">
+                <img src="/assets/plugins/nodebb-theme-custom/images/payments/master-card-secure.svg" width="40" height="20"
                      alt="mastercard SecureCode">
             </div>
         </div>
