@@ -16,7 +16,9 @@
 			<!-- IMPORT partials/categories/item.tpl -->
 			{{{ end }}}
 		</ul>
-		<!-- IMPORT partials/paginator.tpl -->
+		{{{ if config.usePagination }}}
+        	<!-- IMPORT partials/paginator.tpl -->
+        {{{ end }}}
 	</div>
 	<div data-widget-area="sidebar" class="col-lg-3 col-sm-12 {{{ if !widgets.sidebar.length }}}hidden{{{ end }}}">
 		{{{ each widgets.sidebar }}}
