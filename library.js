@@ -88,11 +88,10 @@ library.defineWidgetAreas = async function (areas) {
 
 library.getThemeConfig = async function (config) {
 	const settings = await meta.settings.get('persona');
+
 	config.hideSubCategories = settings.hideSubCategories === 'on';
 	config.hideCategoryLastPost = settings.hideCategoryLastPost === 'on';
 	config.enableQuickReply = settings.enableQuickReply === 'on';
-
-    console.log(config)
 
 	return config;
 };
@@ -101,9 +100,6 @@ library.filterBreadcrumbs = function(breadcrumbs, callback) {
     if (!breadcrumbs || !breadcrumbs.length) {
         return callback(null, breadcrumbs);
     }
-
-    console.log('[my-plugin] filterBreadcrumbs called');
-    console.log('[my-plugin] Received breadcrumbs:', JSON.stringify(breadcrumbs));
 
     // Рекурсивно проходим по всем элементам хлебных крошек
     function cleanUrls(crumbs) {
