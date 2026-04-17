@@ -91,6 +91,9 @@ library.getThemeConfig = async function (config) {
 	config.hideSubCategories = settings.hideSubCategories === 'on';
 	config.hideCategoryLastPost = settings.hideCategoryLastPost === 'on';
 	config.enableQuickReply = settings.enableQuickReply === 'on';
+
+    console.log(config)
+
 	return config;
 };
 
