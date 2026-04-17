@@ -99,6 +99,9 @@ library.filterBreadcrumbs = function(breadcrumbs, callback) {
         return callback(null, breadcrumbs);
     }
 
+    console.log('[my-plugin] filterBreadcrumbs called');
+    console.log('[my-plugin] Received breadcrumbs:', JSON.stringify(breadcrumbs));
+
     // Рекурсивно проходим по всем элементам хлебных крошек
     function cleanUrls(crumbs) {
         crumbs.forEach(function(crumb) {
