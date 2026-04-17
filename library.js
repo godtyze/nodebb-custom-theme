@@ -113,5 +113,5 @@ library.filterBreadcrumbs = function(breadcrumbs, callback) {
         return crumbs;
     }
 
-    callback(null, cleanUrls(breadcrumbs));
+    return callback(null, cleanUrls(breadcrumbs));
 };
