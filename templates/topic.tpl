@@ -124,8 +124,3 @@
 	{{{end}}}
 </div>
 
-{{{ if !config.usePagination }}}
-<noscript>
-<!-- IMPORT partials/paginator.tpl -->
-</noscript>
-{{{ end }}}

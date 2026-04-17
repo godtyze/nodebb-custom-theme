@@ -42,5 +42,7 @@
 		{{{ end }}}
 	</div>
 
-	<!-- IMPORT partials/paginator.tpl -->
+	{{{ if config.usePagination }}}
+    	<!-- IMPORT partials/paginator.tpl -->
+    {{{ end }}}
 </div>

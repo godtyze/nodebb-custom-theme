@@ -93,3 +93,22 @@ library.getThemeConfig = async function (config) {
 	config.enableQuickReply = settings.enableQuickReply === 'on';
 	return config;
 };
+
+library.filterBreadcrumbs = function(breadcrumbs, callback) {
+    if (!breadcrumbs || !breadcrumbs.length) {
+        return callback(null, breadcrumbs);
+    }
+
+    // Рекурсивно проходим по всем элементам хлебных крошек
+    function cleanUrls(crumbs) {
+        crumbs.forEach(function(crumb) {
+            if (crumb.url && typeof crumb.url === 'string') {
+                // Заменяем все повторяющиеся слеши на один
+                crumb.url = crumb.url.replace(/\/{2,}/g, '/');
+            }
+        });
+        return crumbs;
+    }
+
+    callback(null, cleanUrls(breadcrumbs));
+};

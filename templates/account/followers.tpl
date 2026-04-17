@@ -9,7 +9,9 @@
 		<div class="alert alert-warning text-center">[[user:has-no-follower]]</div>
 		<!-- ENDIF !users.length -->
 
-		<!-- IMPORT partials/paginator.tpl -->
+		{{{ if config.usePagination }}}
+        <!-- IMPORT partials/paginator.tpl -->
+        {{{ end }}}
 	</div>
 </div>
 

@@ -230,7 +230,7 @@
                              alt="googlePlay"/>
                     </a>
                     <a href="https://www.rustore.ru/catalog/app/com.greenapi.console" target="_blank" rel="noreferrer">
-                        <img width="135" src="/assets/plugins/nodebb-theme-custom/images/mobile-apps/rustore    .svg" alt="googlePlay"/>
+                        <img width="135" src="/assets/plugins/nodebb-theme-custom/images/mobile-apps/rustore.svg" alt="googlePlay"/>
                     </a>
                     <a
                             href="https://green-api.com/"
