@@ -34,7 +34,7 @@
                         <li><a class="footer-main__link" target="_blank" href="/about">[[global:AboutUs]]</a></li>
                         <li><a class="footer-main__link" target="_blank" href="/contacts">[[global:Contacts]]</a></li>
                         {{{ if (config.userLang == "ru") }}}
-                        <li><a class="footer-main__link" target="_blank" href="/vacancies">Работа у нас</a></li>
+                            <li><a class="footer-main__link" target="_blank" href="/vacancies">Работа у нас</a></li>
                         {{{ end }}}
                         <li><a class="footer-main__link" target="_blank" href="https://status.green-api.com/">GREEN-API status</a></li>
                     </ul>
@@ -89,11 +89,13 @@
                         <li><a class="footer-main__link" target="_blank" href="https://github.com/green-api/logo">GREEN-API:
                             Logo</a></li>
                     </ul>
-                    <h4 class="links-header">[[global:Bitrix24]]</h4>
-                    <ul class="links-list-wrapper">
-                        <li><a class="footer-main__link" target="_blank" href="/user-agreement-bitrix24">[[global:UserAgreementBitrix24]]</a></li>
-                        <li><a class="footer-main__link" target="_blank" href="/privacy-policy-bitrix24">[[global:PrivacyPolicyBitrix24]]</a></li>
-                    </ul>
+                    {{{ if ((config.userLang == "ru" ) || (config.userLang == "en")) }}}
+                        <h4 class="links-header">[[global:Bitrix24]]</h4>
+                        <ul class="links-list-wrapper">
+                            <li><a class="footer-main__link" target="_blank" href="/user-agreement-bitrix24">[[global:UserAgreementBitrix24]]</a></li>
+                            <li><a class="footer-main__link" target="_blank" href="/privacy-policy-bitrix24">[[global:PrivacyPolicyBitrix24]]</a></li>
+                        </ul>
+                    {{{ end }}}
                 </div>
                 <div class="links-list-wrapper products">
                     <h4 class="links-header">[[global:Products]]</h4>
@@ -102,8 +104,8 @@
                         <li><a class="footer-main__link" target="_blank" href="/waba">GREEN-API: WABA</a></li>
                         <li><a class="footer-main__link" target="_blank" href="/docs/gpt/">GREEN-API: GPT</a></li>
                         {{{ if (config.userLang == "ru") }}}
-                        <li><a class="footer-main__link" target="_blank" href="/max">GREEN-API: MAX</a></li>
-                        <li><a class="footer-main__link" target="_blank" href="/max-bot-api">GREEN-API: MAX BOT API</a></li>
+                            <li><a class="footer-main__link" target="_blank" href="/max">GREEN-API: MAX</a></li>
+                            <li><a class="footer-main__link" target="_blank" href="/max-bot-api">GREEN-API: MAX BOT API</a></li>
                         {{{ end }}}
                         <li><a class="footer-main__link" target="_blank" href="/marketing">GREEN-API: Marketing </a></li>
                         <li><a class="footer-main__link" target="_blank" href="/telegram">GREEN-API: Telegram 🔥</a></li>
@@ -112,26 +114,26 @@
             </div>
             <div style="display: flex; gap: 20px; width: 100%">
                 <div class="links-list-wrapper legal-notes legal-notes-right-col">
-                                    <h4 class="links-header">[[global:LegalNotes]]</h4>
-                                    <ul class="links-list-wrapper">
-                                        <li><a class="footer-main__link" target="_blank" href="/user-agreement">[[global:UserAgreement]]</a></li>
-                                        <li><a class="footer-main__link" target="_blank" href="/license-agreement">[[global:LicenseAgreement]]</a></li>
-                                        {{{ if (config.userLang == "ru") }}}
-                                        <li><a class="footer-main__link" target="_blank" href="/recurring-payment-agreement">[[global:RecurringPaymentAgreement]]</a></li>
-                                        {{{ end }}}
-                                        <li style="line-height: 1.8"><a class="footer-main__link" target="_blank"
-                                                                        href="/privacy-policy">[[global:PrivacyPolicy]]</a></li>
-                                        {{{ if (config.userLang == "ru") }}}
-                                        <li><a class="footer-main__link" target="_blank" href="/reestr/description">[[global:ReestrDescription]]</a></li>
-                                        {{{ end }}}
-                                        <li><a class="footer-main__link" target="_blank" href="https://github.com/green-api/logo">GREEN-API:
-                                            Logo</a></li>
-                                    </ul>
-                                    <h4 class="links-header">[[global:Bitrix24]]</h4>
-                                    <ul class="links-list-wrapper">
-                                        <li><a class="footer-main__link" target="_blank" href="/user-agreement-bitrix24">[[global:UserAgreementBitrix24]]</a></li>
-                                        <li><a class="footer-main__link" target="_blank" href="/privacy-policy-bitrix24">[[global:PrivacyPolicyBitrix24]]</a></li>
-                                    </ul>
+                    <h4 class="links-header">[[global:LegalNotes]]</h4>
+                    <ul class="links-list-wrapper">
+                        <li><a class="footer-main__link" target="_blank" href="/user-agreement">[[global:UserAgreement]]</a></li>
+                        <li><a class="footer-main__link" target="_blank" href="/license-agreement">[[global:LicenseAgreement]]</a></li>
+                        {{{ if (config.userLang == "ru") }}}
+                           <li><a class="footer-main__link" target="_blank" href="/recurring-payment-agreement">[[global:RecurringPaymentAgreement]]</a></li>
+                        {{{ end }}}
+                        <li style="line-height: 1.8"><a class="footer-main__link" target="_blank" href="/privacy-policy">[[global:PrivacyPolicy]]</a></li>
+                        {{{ if (config.userLang == "ru") }}}
+                           <li><a class="footer-main__link" target="_blank" href="/reestr/description">[[global:ReestrDescription]]</a></li>
+                        {{{ end }}}
+                        <li><a class="footer-main__link" target="_blank" href="https://github.com/green-api/logo">GREEN-API: Logo</a></li>
+                    </ul>
+                    {{{ if ((config.userLang == "ru" ) || (config.userLang == "en")) }}}
+                        <h4 class="links-header">[[global:Bitrix24]]</h4>
+                        <ul class="links-list-wrapper">
+                            <li><a class="footer-main__link" target="_blank" href="/user-agreement-bitrix24">[[global:UserAgreementBitrix24]]</a></li>
+                            <li><a class="footer-main__link" target="_blank" href="/privacy-policy-bitrix24">[[global:PrivacyPolicyBitrix24]]</a></li>
+                        </ul>
+                    {{{ end }}}
                 </div>
                 <div class="right-col-wrapper">
                     <div class="lang-selector-wrapper">
@@ -172,17 +174,17 @@
                                     <span>[[global:TelegramSupportChannel]]</span>
                                 </a></li>
                                 {{{ if (config.userLang == "ru") }}}
-                                <li><a class="footer-main__link group-link-item"
-                                                                           href="https://max.ru/id5047259512_bot"
-                                                                           target="_blank" rel="noreferrer">
-                                <img src="/assets/plugins/nodebb-theme-custom/images/icons/max.svg" loading="lazy" alt="max icon" width="25"
-                                                                             height="25"/>
-                                <span>Канал поддержки MAX</span>
-                                </a></li>
+                                    <li>
+                                        <a class="footer-main__link group-link-item" href="https://max.ru/id5047259512_bot" target="_blank" rel="noreferrer">
+                                            <img src="/assets/plugins/nodebb-theme-custom/images/icons/max.svg" loading="lazy" alt="max icon" width="25" height="25"/>
+                                            <span>Канал поддержки MAX</span>
+                                        </a>
+                                    </li>
                                 {{{ end }}}
                             </ul>
                         </div>
                         <div class="mobile-apps">
+                            {{{ if (config.userLang == "ru") }}}
                             <div class="mobile-apps-list">
                                 <a href="https://play.google.com/store/apps/details?id=com.greenapi.console"
                                    target="_blank"
@@ -206,6 +208,26 @@
                                     />
                                 </a>
                             </div>
+                            {{{ else }}}
+                            <div class="mobile-apps-list">
+                            <a href="https://play.google.com/store/apps/details?id=com.greenapi.console"
+                                                               target="_blank"
+                                                               rel="noreferrer">
+                                                                <img width="135" src="/assets/plugins/nodebb-theme-custom/images/mobile-apps/google-play-en.svg"
+                                                                     alt="googlePlay"/>
+                                                            </a>
+                                                            <a
+                                                                    href="https://green-api.com/en"
+                                                                    class="footer-main__nav-link footer-main__group-links-item"
+                                                            >
+                                                                <img
+                                                                        width="135"
+                                                                        alt="Powered by GREEN-API"
+                                                                        src="/assets/plugins/nodebb-theme-custom/images/powered-green-api.png"
+                                                                />
+                                                            </a>
+                            </div>
+                            {{{ end }}}
                         </div>
                     </div>
                     <div class="astana-hub-wrapper astana-hub-tech-support">
