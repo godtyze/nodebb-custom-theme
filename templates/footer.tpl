@@ -33,7 +33,7 @@
                         </li>
                         <li><a class="footer-main__link" target="_blank" href="/about">[[global:AboutUs]]</a></li>
                         <li><a class="footer-main__link" target="_blank" href="/contacts">[[global:Contacts]]</a></li>
-                        {{{ if config.userLang === "ru" }}}
+                        {{{ if config.userLang == "ru" }}}
                             <li><a class="footer-main__link" target="_blank" href="/vacancies">Работа у нас</a></li>
                         {{{ end }}}
                         <li><a class="footer-main__link" target="_blank" href="https://status.green-api.com/">GREEN-API status</a></li>
@@ -101,7 +101,7 @@
                         <li><a class="footer-main__link" target="_blank" href="/">GREEN-API</a></li>
                         <li><a class="footer-main__link" target="_blank" href="/waba">GREEN-API: WABA</a></li>
                         <li><a class="footer-main__link" target="_blank" href="/docs/gpt/">GREEN-API: GPT</a></li>
-                        {{{ if config.userLang === "ru" }}}
+                        {{{ if config.userLang == "ru" }}}
                             <li><a class="footer-main__link" target="_blank" href="/max">GREEN-API: MAX</a></li>
                             <li><a class="footer-main__link" target="_blank" href="/max-bot-api">GREEN-API: MAX BOT API</a></li>
                         {{{ end }}}
@@ -116,12 +116,12 @@
                                     <ul class="links-list-wrapper">
                                         <li><a class="footer-main__link" target="_blank" href="/user-agreement">[[global:UserAgreement]]</a></li>
                                         <li><a class="footer-main__link" target="_blank" href="/license-agreement">[[global:LicenseAgreement]]</a></li>
-                                                                {{{ if config.userLang === "ru" }}}
+                                                                {{{ if config.userLang == "ru" }}}
                                                                     <li><a class="footer-main__link" target="_blank" href="/recurring-payment-agreement">[[global:RecurringPaymentAgreement]]</a></li>
                                                                 {{{ end }}}
                                         <li style="line-height: 1.8"><a class="footer-main__link" target="_blank"
                                                                         href="/privacy-policy">[[global:PrivacyPolicy]]</a></li>
-                                        {{{ if config.userLang === "ru" }}}
+                                        {{{ if config.userLang == "ru" }}}
                                            <li><a class="footer-main__link" target="_blank" href="/reestr/description">[[global:ReestrDescription]]</a></li>
                                         {{{ end }}}
                                         <li><a class="footer-main__link" target="_blank" href="https://github.com/green-api/logo">GREEN-API:
@@ -171,7 +171,7 @@
                                          height="25"/>
                                     <span>[[global:TelegramSupportChannel]]</span>
                                 </a></li>
-                                {{{ if config.userLang === "ru" }}}
+                                {{{ if config.userLang == "ru" }}}
                                     <li><a class="footer-main__link group-link-item"
                                                                            href="https://max.ru/id5047259512_bot"
                                                                            target="_blank" rel="noreferrer">
@@ -183,7 +183,7 @@
                             </ul>
                         </div>
                         <div class="mobile-apps">
-                            {{{ if config.userLang === "ru" }}}
+                            {{{ if config.userLang == "ru" }}}
                                 <div class="mobile-apps-list">
                                                                 <a href="https://play.google.com/store/apps/details?id=com.greenapi.console"
                                                                    target="_blank"
@@ -237,7 +237,7 @@
             </div>
         </div>
         <div class="footer-company-info-wrapper">
-            {{{ if config.userLang === "ru" }}}
+            {{{ if config.userLang == "ru" }}}
                                             <div class="mobile-apps-list">
                                                                             <a href="https://play.google.com/store/apps/details?id=com.greenapi.console"
                                                                                target="_blank"
