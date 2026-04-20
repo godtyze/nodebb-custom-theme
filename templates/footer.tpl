@@ -171,14 +171,14 @@
                                          height="25"/>
                                     <span>[[global:TelegramSupportChannel]]</span>
                                 </a></li>
-                                {{{ if config.userLang == "ru" }}}
-                                    <li><a class="footer-main__link group-link-item"
+                                {{{ (if config.userLang == "ru") }}}
+                                <li><a class="footer-main__link group-link-item"
                                                                            href="https://max.ru/id5047259512_bot"
                                                                            target="_blank" rel="noreferrer">
-                                                                        <img src="/assets/plugins/nodebb-theme-custom/images/icons/max.svg" loading="lazy" alt="max icon" width="25"
+                                <img src="/assets/plugins/nodebb-theme-custom/images/icons/max.svg" loading="lazy" alt="max icon" width="25"
                                                                              height="25"/>
-                                                                        <span>Канал поддержки MAX</span>
-                                    </a></li>
+                                <span>Канал поддержки MAX</span>
+                                </a></li>
                                 {{{ end }}}
                             </ul>
                         </div>
