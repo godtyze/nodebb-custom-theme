@@ -33,8 +33,8 @@
                         </li>
                         <li><a class="footer-main__link" target="_blank" href="/about">[[global:AboutUs]]</a></li>
                         <li><a class="footer-main__link" target="_blank" href="/contacts">[[global:Contacts]]</a></li>
-                        {{{ if config.userLang == "ru" }}}
-                            <li><a class="footer-main__link" target="_blank" href="/vacancies">Работа у нас</a></li>
+                        {{{ (if config.userLang == "ru") }}}
+                        <li><a class="footer-main__link" target="_blank" href="/vacancies">Работа у нас</a></li>
                         {{{ end }}}
                         <li><a class="footer-main__link" target="_blank" href="https://status.green-api.com/">GREEN-API status</a></li>
                     </ul>
@@ -101,9 +101,9 @@
                         <li><a class="footer-main__link" target="_blank" href="/">GREEN-API</a></li>
                         <li><a class="footer-main__link" target="_blank" href="/waba">GREEN-API: WABA</a></li>
                         <li><a class="footer-main__link" target="_blank" href="/docs/gpt/">GREEN-API: GPT</a></li>
-                        {{{ if config.userLang == "ru" }}}
-                            <li><a class="footer-main__link" target="_blank" href="/max">GREEN-API: MAX</a></li>
-                            <li><a class="footer-main__link" target="_blank" href="/max-bot-api">GREEN-API: MAX BOT API</a></li>
+                        {{{ (if config.userLang == "ru") }}}
+                        <li><a class="footer-main__link" target="_blank" href="/max">GREEN-API: MAX</a></li>
+                        <li><a class="footer-main__link" target="_blank" href="/max-bot-api">GREEN-API: MAX BOT API</a></li>
                         {{{ end }}}
                         <li><a class="footer-main__link" target="_blank" href="/marketing">GREEN-API: Marketing </a></li>
                         <li><a class="footer-main__link" target="_blank" href="/telegram">GREEN-API: Telegram 🔥</a></li>
@@ -116,13 +116,13 @@
                                     <ul class="links-list-wrapper">
                                         <li><a class="footer-main__link" target="_blank" href="/user-agreement">[[global:UserAgreement]]</a></li>
                                         <li><a class="footer-main__link" target="_blank" href="/license-agreement">[[global:LicenseAgreement]]</a></li>
-                                                                {{{ if config.userLang == "ru" }}}
-                                                                    <li><a class="footer-main__link" target="_blank" href="/recurring-payment-agreement">[[global:RecurringPaymentAgreement]]</a></li>
-                                                                {{{ end }}}
+                                        {{{ (if config.userLang == "ru") }}}
+                                        <li><a class="footer-main__link" target="_blank" href="/recurring-payment-agreement">[[global:RecurringPaymentAgreement]]</a></li>
+                                        {{{ end }}}
                                         <li style="line-height: 1.8"><a class="footer-main__link" target="_blank"
                                                                         href="/privacy-policy">[[global:PrivacyPolicy]]</a></li>
-                                        {{{ if config.userLang == "ru" }}}
-                                           <li><a class="footer-main__link" target="_blank" href="/reestr/description">[[global:ReestrDescription]]</a></li>
+                                        {{{ (if config.userLang == "ru") }}}
+                                        <li><a class="footer-main__link" target="_blank" href="/reestr/description">[[global:ReestrDescription]]</a></li>
                                         {{{ end }}}
                                         <li><a class="footer-main__link" target="_blank" href="https://github.com/green-api/logo">GREEN-API:
                                             Logo</a></li>
@@ -183,50 +183,29 @@
                             </ul>
                         </div>
                         <div class="mobile-apps">
-                            {{{ if config.userLang == "ru" }}}
-                                <div class="mobile-apps-list">
-                                                                <a href="https://play.google.com/store/apps/details?id=com.greenapi.console"
-                                                                   target="_blank"
-                                                                   rel="noreferrer">
-                                                                    <img width="135" src="/assets/plugins/nodebb-theme-custom/images/mobile-apps/google-play.svg"
-                                                                         alt="googlePlay"/>
-                                                                </a>
-                                                                <a href="https://www.rustore.ru/catalog/app/com.greenapi.console" target="_blank"
-                                                                   rel="noreferrer">
-                                                                    <img width="135" src="/assets/plugins/nodebb-theme-custom/images/mobile-apps/rustore.svg"
-                                                                         alt="googlePlay"/>
-                                                                </a>
-                                                                <a
-                                                                        href="https://green-api.com/"
-                                                                        class="footer-main__nav-link footer-main__group-links-item"
-                                                                >
-                                                                    <img
-                                                                            width="135"
-                                                                            alt="Powered by GREEN-API"
-                                                                            src="/assets/plugins/nodebb-theme-custom/images/powered-green-api.png"
-                                                                    />
-                                                                </a>
-                                                            </div>
-                            {{{ else }}}
-                                <div class="mobile-apps-list">
-                                                                <a href="https://play.google.com/store/apps/details?id=com.greenapi.console"
-                                                                   target="_blank"
-                                                                   rel="noreferrer">
-                                                                    <img width="135" src="/assets/plugins/nodebb-theme-custom/images/mobile-apps/google-play=en.svg"
-                                                                         alt="googlePlay"/>
-                                                                </a>
-                                                                <a
-                                                                        href="https://green-api.com/en"
-                                                                        class="footer-main__nav-link footer-main__group-links-item"
-                                                                >
-                                                                    <img
-                                                                            width="135"
-                                                                            alt="Powered by GREEN-API"
-                                                                            src="/assets/plugins/nodebb-theme-custom/images/powered-green-api.png"
-                                                                    />
-                                                                </a>
-                                                            </div>
-                            {{{ end }}}
+                            <div class="mobile-apps-list">
+                                <a href="https://play.google.com/store/apps/details?id=com.greenapi.console"
+                                   target="_blank"
+                                   rel="noreferrer">
+                                    <img width="135" src="/assets/plugins/nodebb-theme-custom/images/mobile-apps/google-play.svg"
+                                         alt="googlePlay"/>
+                                </a>
+                                <a href="https://www.rustore.ru/catalog/app/com.greenapi.console" target="_blank"
+                                   rel="noreferrer">
+                                    <img width="135" src="/assets/plugins/nodebb-theme-custom/images/mobile-apps/rustore.svg"
+                                         alt="googlePlay"/>
+                                </a>
+                                <a
+                                        href="https://green-api.com/"
+                                        class="footer-main__nav-link footer-main__group-links-item"
+                                >
+                                    <img
+                                            width="135"
+                                            alt="Powered by GREEN-API"
+                                            src="/assets/plugins/nodebb-theme-custom/images/powered-green-api.png"
+                                    />
+                                </a>
+                            </div>
                         </div>
                     </div>
                     <div class="astana-hub-wrapper astana-hub-tech-support">
@@ -237,50 +216,27 @@
             </div>
         </div>
         <div class="footer-company-info-wrapper">
-            {{{ if config.userLang == "ru" }}}
-                                            <div class="mobile-apps-list">
-                                                                            <a href="https://play.google.com/store/apps/details?id=com.greenapi.console"
-                                                                               target="_blank"
-                                                                               rel="noreferrer">
-                                                                                <img width="135" src="/assets/plugins/nodebb-theme-custom/images/mobile-apps/google-play.svg"
-                                                                                     alt="googlePlay"/>
-                                                                            </a>
-                                                                            <a href="https://www.rustore.ru/catalog/app/com.greenapi.console" target="_blank"
-                                                                               rel="noreferrer">
-                                                                                <img width="135" src="/assets/plugins/nodebb-theme-custom/images/mobile-apps/rustore.svg"
-                                                                                     alt="googlePlay"/>
-                                                                            </a>
-                                                                            <a
-                                                                                    href="https://green-api.com/"
-                                                                                    class="footer-main__nav-link footer-main__group-links-item"
-                                                                            >
-                                                                                <img
-                                                                                        width="135"
-                                                                                        alt="Powered by GREEN-API"
-                                                                                        src="/assets/plugins/nodebb-theme-custom/images/powered-green-api.png"
-                                                                                />
-                                                                            </a>
-                                                                        </div>
-                                        {{{ else }}}
-                                            <div class="mobile-apps-list">
-                                                                            <a href="https://play.google.com/store/apps/details?id=com.greenapi.console"
-                                                                               target="_blank"
-                                                                               rel="noreferrer">
-                                                                                <img width="135" src="/assets/plugins/nodebb-theme-custom/images/mobile-apps/google-play=en.svg"
-                                                                                     alt="googlePlay"/>
-                                                                            </a>
-                                                                            <a
-                                                                                    href="https://green-api.com/en"
-                                                                                    class="footer-main__nav-link footer-main__group-links-item"
-                                                                            >
-                                                                                <img
-                                                                                        width="135"
-                                                                                        alt="Powered by GREEN-API"
-                                                                                        src="/assets/plugins/nodebb-theme-custom/images/powered-green-api.png"
-                                                                                />
-                                                                            </a>
-                                                                        </div>
-                                        {{{ end }}}
+            <div class="mobile-apps-company-info">
+                <div class="mobile-apps-list">
+                    <a href="https://play.google.com/store/apps/details?id=com.greenapi.console" target="_blank"
+                       rel="noreferrer">
+                        <img width="135" src="/assets/plugins/nodebb-theme-custom/images/mobile-apps/google-play.svg"
+                             alt="googlePlay"/>
+                    </a>
+                    <a href="https://www.rustore.ru/catalog/app/com.greenapi.console" target="_blank" rel="noreferrer">
+                        <img width="135" src="/assets/plugins/nodebb-theme-custom/images/mobile-apps/rustore.svg" alt="googlePlay"/>
+                    </a>
+                    <a
+                            href="https://green-api.com/"
+                            class="footer-main__nav-link footer-main__group-links-item"
+                    >
+                        <img
+                                width="135"
+                                alt="Powered by GREEN-API"
+                                src="/assets/plugins/nodebb-theme-custom/images/powered-green-api.png"
+                        />
+                    </a>
+                </div>
             </div>
             <div class="footer-company-info">
                 <div>[[global:LLC]]</div>
