@@ -21,5 +21,6 @@
   "staticDirs": {
     "images": "./images"
   },
-	"languages": "languages"
+	"languages": "languages",
+    "defaultLang": "en-US"
 }

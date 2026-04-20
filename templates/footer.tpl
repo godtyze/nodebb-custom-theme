@@ -14,7 +14,7 @@
         <div class="footer-top-links-group">
             <div class="footer-links-wrapper">
                 <div class="links-list-wrapper list-width-left-col">
-                    <h4 class="links-header">[[global:Menu]</h4>
+                    <h4 class="links-header">[[global:Menu]]</h4>
                     <ul class="links-list-wrapper">
                         <li><a class="footer-main__link" target="_blank" href="/docs/">[[global:Documentation]]</a></li>
                         <li><a class="footer-main__link" target="_blank" href="/docs/sdk/">[[global:SDK]]</a></li>
@@ -57,7 +57,7 @@
                         <li><a class="footer-main__link" target="_blank" href="/docs/sdk/python/">Python</a></li>
                         <li><a class="footer-main__link" target="_blank" href="/docs/sdk/nodejs/">Node.js</a></li>
                         <li><a class="footer-main__link" target="_blank" href="/docs/sdk/html5/">HTML</a></li>
-                        <li><a class="footer-main__link" target="_blank" href="/docs/sdk/1c/">[[global:1с]]</a></li>
+                        <li><a class="footer-main__link" target="_blank" href="/docs/sdk/1c/">[[global:1c]]</a></li>
                         <li><a class="footer-main__link" target="_blank" href="/docs/sdk/php/">PHP</a></li>
                         <li><a class="footer-main__link" target="_blank" href="/docs/sdk/java/">Java</a></li>
                         <li><a class="footer-main__link" target="_blank" href="/docs/sdk/golang/">Go</a></li>
@@ -70,7 +70,7 @@
                         <li><a class="footer-main__link" target="_blank" href="/docs/chatbots/python/">Python</a></li>
                         <li><a class="footer-main__link" target="_blank" href="/docs/chatbots/java/">Java</a></li>
                         <li><a class="footer-main__link" target="_blank" href="/docs/chatbots/golang/">Go</a></li>
-                        <li><a class="footer-main__link" target="_blank" href="/docs/chatbots/1c/">[[global:1с]]</a>
+                        <li><a class="footer-main__link" target="_blank" href="/docs/chatbots/1c/">[[global:1c]]</a>
                         </li>
                         <li><a class="footer-main__link" target="_blank" href="/docs/chatbots/nodejs/">Node.js</a></li>
                     </ul>
@@ -107,7 +107,7 @@
                 </div>
             </div>
             <div style="display: flex; gap: 20px; width: 100%">
-                <div class="links-list-wrapper legal-notes legal-notes-left-col">
+                <div class="links-list-wrapper legal-notes legal-notes-right-col">
                                     <h4 class="links-header">[[global:LegalNotes]]</h4>
                                     <ul class="links-list-wrapper">
                                         <li><a class="footer-main__link" target="_blank" href="/user-agreement">[[global:UserAgreement]]</a></li>
@@ -124,7 +124,7 @@
                                         <li><a class="footer-main__link" target="_blank" href="/user-agreement-bitrix24">[[global:UserAgreementBitrix24]]</a></li>
                                         <li><a class="footer-main__link" target="_blank" href="/privacy-policy-bitrix24">[[global:PrivacyPolicyBitrix24]]</a></li>
                                     </ul>
-                                </div>
+                </div>
                 <div class="right-col-wrapper">
                     <div class="lang-selector-wrapper">
                         <div class="links-list-wrapper tech-support">
