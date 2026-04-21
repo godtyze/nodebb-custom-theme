@@ -436,7 +436,7 @@
                 />
             </svg>
             <span class="footer-year">
-                GREEN-API © 2015 - <span id="copyright_year"></span>
+                GREEN-API © 2015 - <span id="copyright_year">2026</span>
             </span>
             <div class="footer-social-list social-list-payments">
                 <div class="footer-social__item" title="WhatsApp">
