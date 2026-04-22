@@ -17,16 +17,6 @@ library.init = async function (params) {
 		middleware.canViewUsers,
 		middleware.checkAccountPermissions,
 	], controllers.renderThemeSettings);
-
-    router.get('/categories', (req, res, next) => {
-        // 302 — временный редирект
-        // Если вы хотите постоянный редирект (301), используйте: res.redirect(301, '/');
-        res.redirect(301, '/');
-    });
-
-    router.get('/api/categories', (req, res, next) => {
-        res.redirect('/api/');
-    });
 };
 
 library.addAdminNavigation = async function (header) {
