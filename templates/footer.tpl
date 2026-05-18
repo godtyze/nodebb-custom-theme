@@ -82,11 +82,15 @@
                     <ul class="links-list-wrapper">
                         <li><a class="footer-main__link" target="_blank" href="[[links:UserAgreement]]">[[global:UserAgreement]]</a></li>
                         <li><a class="footer-main__link" target="_blank" href="[[links:LicenseAgreement]]">[[global:LicenseAgreement]]</a></li>
-                        <li><a class="footer-main__link" target="_blank" href="[[links:RecurringPaymentAgreement]]">[[global:RecurringPaymentAgreement]]</a></li>
+                        {{{ if (config.userLang == "ru") }}}
+                            <li><a class="footer-main__link" target="_blank" href="[[links:RecurringPaymentAgreement]]">[[global:RecurringPaymentAgreement]]</a></li>
+                        {{{ end }}}
                         <li style="line-height: 1.8"><a class="footer-main__link" target="_blank"
                                                         href="[[links:PrivacyPolicy]]">[[global:PrivacyPolicy]]</a></li>
-                        <li><a class="footer-main__link" target="_blank" href="[[links:ReestrDescription]]">[[global:ReestrDescription]]</a></li>
-                        <li><a class="footer-main__link" target="_blank" href="[[links:GREEN-API: Logo]]">GREEN-API:
+                        {{{ if (config.userLang == "ru") }}}
+                            <li><a class="footer-main__link" target="_blank" href="/reestr/description">[[global:ReestrDescription]]</a></li>
+                        {{{ end }}}
+                        <li><a class="footer-main__link" target="_blank" href="https://github.com/green-api/logo">GREEN-API:
                             Logo</a></li>
                     </ul>
                     {{{ if ((config.userLang == "ru" ) || (config.userLang == "en")) }}}
@@ -123,7 +127,7 @@
                         {{{ end }}}
                         <li style="line-height: 1.8"><a class="footer-main__link" target="_blank" href="[[links:PrivacyPolicy]]">[[global:PrivacyPolicy]]</a></li>
                         {{{ if (config.userLang == "ru") }}}
-                           <li><a class="footer-main__link" target="_blank" href="[[links:ReestrDescription]]">[[global:ReestrDescription]]</a></li>
+                           <li><a class="footer-main__link" target="_blank" href="/reestr/description">[[global:ReestrDescription]]</a></li>
                         {{{ end }}}
                         <li><a class="footer-main__link" target="_blank" href="https://github.com/green-api/logo">GREEN-API: Logo</a></li>
                     </ul>
