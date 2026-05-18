@@ -99,5 +99,11 @@ library.getThemeConfig = async function (config) {
 library.modifyCategory = function (config) {
   const { category, data } = config;
 
-  console.log(category, data)
+  return {
+    category: {
+      ...category,
+      handle: data.url,
+      slug: `${category.cid}/${data.url}`,
+    }
+  }
 }

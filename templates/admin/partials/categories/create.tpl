@@ -4,7 +4,7 @@
 		<input type="text" class="form-control" name="name" id="name" />
 	</div>
 	<div class="mb-3">
-    	<label class="form-label" for="url">[[admin/manage/categories:name]]</label>
+    	<label class="form-label" for="url">URL Slug</label>
     	<input type="text" class="form-control" name="url" id="url" />
     </div>
 	<div class="mb-3" id="parentCidGroup">
