@@ -99,5 +99,5 @@ library.getThemeConfig = async function (config) {
 library.modifyCategory = function (config) {
   const { category, data } = config;
 
-  console.log(category, data);
+  console.log(category, data)
 }
