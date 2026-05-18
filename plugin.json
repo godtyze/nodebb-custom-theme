@@ -6,7 +6,7 @@
 		{ "hook": "static:app.load", "method": "init" },
 		{ "hook": "filter:admin.header.build", "method": "addAdminNavigation" },
 		{ "hook": "filter:user.profileMenu", "method": "addProfileItem" },
-        { "hook": "filter:category.create", "method": "modifyCategory" }
+        { "hook": "filter:category.update", "method": "modifyCategory" }
 	],
 	"scripts": [
 		"public/modules/autohidingnavbar.js",
