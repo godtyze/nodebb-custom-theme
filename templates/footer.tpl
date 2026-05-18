@@ -16,23 +16,23 @@
                 <div class="links-list-wrapper list-width-left-col">
                     <h4 class="links-header">[[global:Menu]]</h4>
                     <ul class="links-list-wrapper">
-                        <li><a class="footer-main__link" target="_blank" href="/docs/">[[global:Documentation]]</a></li>
-                        <li><a class="footer-main__link" target="_blank" href="/docs/sdk/">[[global:SDK]]</a></li>
-                        <li><a class="footer-main__link" target="_blank" href="/docs/chatbots/">[[global:Chatbots]]</a></li>
-                        <li><a class="footer-main__link" target="_blank" href="/docs/integration/">[[global:Integrations]]</a></li>
-                        <li><a class="footer-main__link" target="_blank" href="/docs/release/">[[global:Releases]]</a></li>
-                        <li><a class="footer-main__link" target="_blank" href="https://green-api.com/articles/">[[global:Articles]]</a></li>
-                        <li><a class="footer-main__link" target="_blank" href="/blog/">[[global:Blog]]</a></li>
-                        <li><a class="footer-main__link" target="_blank" href="https://green-api.com/articles/news/">[[global:News]]</a></li>
-                        <li><a class="footer-main__link" target="_blank" href="/docs/news/">[[global:NewsArchive]]</a></li>
-                        <li><a class="footer-main__link" target="_blank" href="/docs/faq/">[[global:FAQ]]</a></li>
-                        <li><a class="footer-main__link" target="_blank" href="/become-a-partner">[[global:Partnership]]</a>
+                        <li><a class="footer-main__link" target="_blank" href="[[links:Documentation]]">[[global:Documentation]]</a></li>
+                        <li><a class="footer-main__link" target="_blank" href="[[links:SDK]]">[[global:SDK]]</a></li>
+                        <li><a class="footer-main__link" target="_blank" href="[[links:Chatbots]]">[[global:Chatbots]]</a></li>
+                        <li><a class="footer-main__link" target="_blank" href="[[links:Integrations]]">[[global:Integrations]]</a></li>
+                        <li><a class="footer-main__link" target="_blank" href="[[links:Releases]]">[[global:Releases]]</a></li>
+                        <li><a class="footer-main__link" target="_blank" href="[[links:Articles]]">[[global:Articles]]</a></li>
+                        <li><a class="footer-main__link" target="_blank" href="[[links:Blog]]">[[global:Blog]]</a></li>
+                        <li><a class="footer-main__link" target="_blank" href="[[links:News]]">[[global:News]]</a></li>
+                        <li><a class="footer-main__link" target="_blank" href="[[links:NewsArchive]]">[[global:NewsArchive]]</a></li>
+                        <li><a class="footer-main__link" target="_blank" href="[[links:FAQ]]">[[global:FAQ]]</a></li>
+                        <li><a class="footer-main__link" target="_blank" href="[[links:Partnership]]">[[global:Partnership]]</a>
                         </li>
-                        <li><a class="footer-main__link" target="_blank" href="/#section-prices">[[global:Tariffs]]</a></li>
-                        <li><a class="footer-main__link" target="_blank" href="/link-builder">[[global:LinkBuilder]]</a>
+                        <li><a class="footer-main__link" target="_blank" href="[[links:Tariffs]]">[[global:Tariffs]]</a></li>
+                        <li><a class="footer-main__link" target="_blank" href="[[links:LinkBuilder]]">[[global:LinkBuilder]]</a>
                         </li>
-                        <li><a class="footer-main__link" target="_blank" href="/about">[[global:AboutUs]]</a></li>
-                        <li><a class="footer-main__link" target="_blank" href="/contacts">[[global:Contacts]]</a></li>
+                        <li><a class="footer-main__link" target="_blank" href="[[links:AboutUs]]">[[global:AboutUs]]</a></li>
+                        <li><a class="footer-main__link" target="_blank" href="[[links:Contacts]]">[[global:Contacts]]</a></li>
                         {{{ if (config.userLang == "ru") }}}
                             <li><a class="footer-main__link" target="_blank" href="/vacancies">Работа у нас</a></li>
                         {{{ end }}}
@@ -42,67 +42,67 @@
                 <div class="links-list-wrapper list-width-left-col">
                     <h4 class="links-header">[[global:Integrations]]</h4>
                     <ul class="links-list-wrapper">
-                        <li><a class="footer-main__link" target="_blank" href="/docs/integration/make/">Make</a></li>
-                        <li><a class="footer-main__link" target="_blank" href="/docs/integration/ms_excel/">MS Excel</a></li>
-                        <li><a class="footer-main__link" target="_blank" href="/docs/integration/gohighlevel/">GoHighLevel</a></li>
-                        <li><a class="footer-main__link" target="_blank" href="/docs/integration/rocket-chat/">Rocket.chat</a></li>
-                        <li><a class="footer-main__link" target="_blank" href="/docs/integration/zapier/">Zapier</a></li>
-                        <li><a class="footer-main__link" target="_blank" href="/docs/integration/zabbix/">Zabbix</a></li>
-                        <li><a class="footer-main__link" target="_blank" href="/docs/integration/slack/">Slack</a></li>
-                        <li><a class="footer-main__link" target="_blank" href="/docs/integration/n8n/">n8n</a></li>
-                        <li><a class="footer-main__link" target="_blank" href="/docs/integration/">[[global:AllIntegrations]]</a></li>
+                        <li><a class="footer-main__link" target="_blank" href="[[links:Make]]">Make</a></li>
+                        <li><a class="footer-main__link" target="_blank" href="[[links:MSExcel]]">MS Excel</a></li>
+                        <li><a class="footer-main__link" target="_blank" href="[[links:GoHighLevel]]">GoHighLevel</a></li>
+                        <li><a class="footer-main__link" target="_blank" href="[[links:Rocket.chat]]">Rocket.chat</a></li>
+                        <li><a class="footer-main__link" target="_blank" href="[[links:Zapier]]">Zapier</a></li>
+                        <li><a class="footer-main__link" target="_blank" href="[[links:Zabbix]]">Zabbix</a></li>
+                        <li><a class="footer-main__link" target="_blank" href="[[links:Slack]]">Slack</a></li>
+                        <li><a class="footer-main__link" target="_blank" href="[[links:n8n]]">n8n</a></li>
+                        <li><a class="footer-main__link" target="_blank" href="[[links:AllIntegrations]]">[[global:AllIntegrations]]</a></li>
                     </ul>
                 </div>
                 <div class="links-list-wrapper list-width-left-col">
                     <h4 class="links-header">[[global:SDK]]</h4>
                     <ul class="links-list-wrapper">
-                        <li><a class="footer-main__link" target="_blank" href="/docs/sdk/python/">Python</a></li>
-                        <li><a class="footer-main__link" target="_blank" href="/docs/sdk/nodejs/">Node.js</a></li>
-                        <li><a class="footer-main__link" target="_blank" href="/docs/sdk/html5/">HTML</a></li>
-                        <li><a class="footer-main__link" target="_blank" href="/docs/sdk/1c/">[[global:1c]]</a></li>
-                        <li><a class="footer-main__link" target="_blank" href="/docs/sdk/php/">PHP</a></li>
-                        <li><a class="footer-main__link" target="_blank" href="/docs/sdk/java/">Java</a></li>
-                        <li><a class="footer-main__link" target="_blank" href="/docs/sdk/golang/">Go</a></li>
-                        <li><a class="footer-main__link" target="_blank" href="/docs/sdk/cpp/">C++</a></li>
+                        <li><a class="footer-main__link" target="_blank" href="[[links:PythonSDK]]">Python</a></li>
+                        <li><a class="footer-main__link" target="_blank" href="[[links:NodeJSSDK]]">Node.js</a></li>
+                        <li><a class="footer-main__link" target="_blank" href="[[links:HTML]]">HTML</a></li>
+                        <li><a class="footer-main__link" target="_blank" href="[[links:1cSDK]]">[[global:1c]]</a></li>
+                        <li><a class="footer-main__link" target="_blank" href="[[links:PHP]]">PHP</a></li>
+                        <li><a class="footer-main__link" target="_blank" href="[[links:Java]]">Java</a></li>
+                        <li><a class="footer-main__link" target="_blank" href="[[links:GoSDK]]">Go</a></li>
+                        <li><a class="footer-main__link" target="_blank" href="[[links:C++]]">C++</a></li>
                     </ul>
                 </div>
                 <div class="links-list-wrapper list-width-left-col">
                     <h4 class="links-header">[[global:Chatbots]]</h4>
                     <ul class="links-list-wrapper">
-                        <li><a class="footer-main__link" target="_blank" href="/docs/chatbots/python/">Python</a></li>
-                        <li><a class="footer-main__link" target="_blank" href="/docs/chatbots/java/">Java</a></li>
-                        <li><a class="footer-main__link" target="_blank" href="/docs/chatbots/golang/">Go</a></li>
-                        <li><a class="footer-main__link" target="_blank" href="/docs/chatbots/1c/">[[global:1c]]</a>
+                        <li><a class="footer-main__link" target="_blank" href="[[links:Python]]">Python</a></li>
+                        <li><a class="footer-main__link" target="_blank" href="[[links:Java]]">Java</a></li>
+                        <li><a class="footer-main__link" target="_blank" href="[[links:Go]]">Go</a></li>
+                        <li><a class="footer-main__link" target="_blank" href="[[links:1c]]">[[global:1c]]</a>
                         </li>
-                        <li><a class="footer-main__link" target="_blank" href="/docs/chatbots/nodejs/">Node.js</a></li>
+                        <li><a class="footer-main__link" target="_blank" href="[[links:Node.js]]">Node.js</a></li>
                     </ul>
                 </div>
                 <div class="links-list-wrapper legal-notes legal-notes-left-col">
                     <h4 class="links-header">[[global:LegalNotes]]</h4>
                     <ul class="links-list-wrapper">
-                        <li><a class="footer-main__link" target="_blank" href="/user-agreement">[[global:UserAgreement]]</a></li>
-                        <li><a class="footer-main__link" target="_blank" href="/license-agreement">[[global:LicenseAgreement]]</a></li>
-                        <li><a class="footer-main__link" target="_blank" href="/recurring-payment-agreement">[[global:RecurringPaymentAgreement]]</a></li>
+                        <li><a class="footer-main__link" target="_blank" href="[[links:UserAgreement]]">[[global:UserAgreement]]</a></li>
+                        <li><a class="footer-main__link" target="_blank" href="[[links:LicenseAgreement]]">[[global:LicenseAgreement]]</a></li>
+                        <li><a class="footer-main__link" target="_blank" href="[[links:RecurringPaymentAgreement]]">[[global:RecurringPaymentAgreement]]</a></li>
                         <li style="line-height: 1.8"><a class="footer-main__link" target="_blank"
-                                                        href="/privacy-policy">[[global:PrivacyPolicy]]</a></li>
-                        <li><a class="footer-main__link" target="_blank" href="/reestr/description">[[global:ReestrDescription]]</a></li>
-                        <li><a class="footer-main__link" target="_blank" href="https://github.com/green-api/logo">GREEN-API:
+                                                        href="[[links:PrivacyPolicy]]">[[global:PrivacyPolicy]]</a></li>
+                        <li><a class="footer-main__link" target="_blank" href="[[links:ReestrDescription]]">[[global:ReestrDescription]]</a></li>
+                        <li><a class="footer-main__link" target="_blank" href="[[links:GREEN-API: Logo]]">GREEN-API:
                             Logo</a></li>
                     </ul>
                     {{{ if ((config.userLang == "ru" ) || (config.userLang == "en")) }}}
                         <h4 class="links-header">[[global:Bitrix24]]</h4>
                         <ul class="links-list-wrapper">
-                            <li><a class="footer-main__link" target="_blank" href="/user-agreement-bitrix24">[[global:UserAgreementBitrix24]]</a></li>
-                            <li><a class="footer-main__link" target="_blank" href="/privacy-policy-bitrix24">[[global:PrivacyPolicyBitrix24]]</a></li>
+                            <li><a class="footer-main__link" target="_blank" href="[[links:UserAgreementBitrix24]]">[[global:UserAgreementBitrix24]]</a></li>
+                            <li><a class="footer-main__link" target="_blank" href="[[links:PrivacyPolicyBitrix24]]">[[global:PrivacyPolicyBitrix24]]</a></li>
                         </ul>
                     {{{ end }}}
                 </div>
                 <div class="links-list-wrapper products">
                     <h4 class="links-header">[[global:Products]]</h4>
                     <ul class="links-list-wrapper">
-                        <li><a class="footer-main__link" target="_blank" href="/">GREEN-API</a></li>
-                        <li><a class="footer-main__link" target="_blank" href="/waba">GREEN-API: WABA</a></li>
-                        <li><a class="footer-main__link" target="_blank" href="/docs/gpt/">GREEN-API: GPT</a></li>
+                        <li><a class="footer-main__link" target="_blank" href="[[links:GREEN-API]]">GREEN-API</a></li>
+                        <li><a class="footer-main__link" target="_blank" href="[[links:GREEN-API-WABA]]">GREEN-API: WABA</a></li>
+                        <li><a class="footer-main__link" target="_blank" href="[[links:GREEN-API-GPT]]">GREEN-API: GPT</a></li>
                         {{{ if (config.userLang == "ru") }}}
                             <li><a class="footer-main__link" target="_blank" href="/max">GREEN-API: MAX</a></li>
                             <li><a class="footer-main__link" target="_blank" href="/max-bot-api">GREEN-API: MAX BOT API</a></li>
@@ -116,22 +116,22 @@
                 <div class="links-list-wrapper legal-notes legal-notes-right-col">
                     <h4 class="links-header">[[global:LegalNotes]]</h4>
                     <ul class="links-list-wrapper">
-                        <li><a class="footer-main__link" target="_blank" href="/user-agreement">[[global:UserAgreement]]</a></li>
-                        <li><a class="footer-main__link" target="_blank" href="/license-agreement">[[global:LicenseAgreement]]</a></li>
+                        <li><a class="footer-main__link" target="_blank" href="[[links:UserAgreement]]">[[global:UserAgreement]]</a></li>
+                        <li><a class="footer-main__link" target="_blank" href="[[links:LicenseAgreement]]">[[global:LicenseAgreement]]</a></li>
                         {{{ if (config.userLang == "ru") }}}
-                           <li><a class="footer-main__link" target="_blank" href="/recurring-payment-agreement">[[global:RecurringPaymentAgreement]]</a></li>
+                           <li><a class="footer-main__link" target="_blank" href="[[links:RecurringPaymentAgreement]]">[[global:RecurringPaymentAgreement]]</a></li>
                         {{{ end }}}
-                        <li style="line-height: 1.8"><a class="footer-main__link" target="_blank" href="/privacy-policy">[[global:PrivacyPolicy]]</a></li>
+                        <li style="line-height: 1.8"><a class="footer-main__link" target="_blank" href="[[links:PrivacyPolicy]]">[[global:PrivacyPolicy]]</a></li>
                         {{{ if (config.userLang == "ru") }}}
-                           <li><a class="footer-main__link" target="_blank" href="/reestr/description">[[global:ReestrDescription]]</a></li>
+                           <li><a class="footer-main__link" target="_blank" href="[[links:ReestrDescription]]">[[global:ReestrDescription]]</a></li>
                         {{{ end }}}
                         <li><a class="footer-main__link" target="_blank" href="https://github.com/green-api/logo">GREEN-API: Logo</a></li>
                     </ul>
                     {{{ if ((config.userLang == "ru" ) || (config.userLang == "en")) }}}
                         <h4 class="links-header">[[global:Bitrix24]]</h4>
                         <ul class="links-list-wrapper">
-                            <li><a class="footer-main__link" target="_blank" href="/user-agreement-bitrix24">[[global:UserAgreementBitrix24]]</a></li>
-                            <li><a class="footer-main__link" target="_blank" href="/privacy-policy-bitrix24">[[global:PrivacyPolicyBitrix24]]</a></li>
+                            <li><a class="footer-main__link" target="_blank" href="[[links:UserAgreementBitrix24]]">[[global:UserAgreementBitrix24]]</a></li>
+                            <li><a class="footer-main__link" target="_blank" href="[[links:PrivacyPolicyBitrix24]]">[[global:PrivacyPolicyBitrix24]]</a></li>
                         </ul>
                     {{{ end }}}
                 </div>
@@ -141,33 +141,33 @@
                             <h4 class="links-header">[[global:Support]]</h4>
                             <ul class="links-list-wrapper">
                                 <li><a class="footer-main__link group-link-item"
-                                       href="https://green-api.com/ru/forum"
+                                       href="[[links:Forum]]"
                                        target="_blank" rel="noreferrer">
                                     <img src="/assets/plugins/nodebb-theme-custom/images/icons/github.svg" loading="lazy" alt="github icon" width="25"
                                          height="25"/>
                                     <span>[[global:Forum]]</span>
                                 </a></li>
                                 <li><a class="footer-main__link group-link-item"
-                                       href="https://github.com/green-api/issues/issues/new"
+                                       href="[[links:ContactSupport]]"
                                        target="_blank" rel="noreferrer">
                                     <img src="/assets/plugins/nodebb-theme-custom/images/icons/github.svg" loading="lazy" alt="github icon" width="25"
                                          height="25"/>
                                     <span>[[global:ContactSupport]]</span>
                                 </a></li>
-                                <li><a class="footer-main__link group-link-item" href="mailto:support@green-api.com"
+                                <li><a class="footer-main__link group-link-item" href="[[links:Email]]"
                                        target="_blank" rel="noreferrer">
                                     <img src="/assets/plugins/nodebb-theme-custom/images/icons/email.svg" loading="lazy" alt="email icon" width="25"
                                          height="25"/>
                                     <span>support@green-api.com</span>
                                 </a></li>
-                                <li><a class="footer-main__link group-link-item" href="https://wa.me/77780739095"
+                                <li><a class="footer-main__link group-link-item" href="[[links:WhatsappSupportChannel]]"
                                        target="_blank" rel="noreferrer">
                                     <img src="/assets/plugins/nodebb-theme-custom/images/icons/whatsapp.svg" loading="lazy" alt="whatsapp icon" width="25"
                                          height="25"/>
                                     <span>[[global:WhatsappSupportChannel]]</span>
                                 </a></li>
                                 <li><a class="footer-main__link group-link-item"
-                                       href="https://t.me/greenapi_support_ru_bot"
+                                       href="[[links:TelegramSupportChannel]]"
                                        target="_blank" rel="noreferrer">
                                     <img src="/assets/plugins/nodebb-theme-custom/images/icons/telegram.svg" loading="lazy" alt="telegram icon" width="25"
                                          height="25"/>
@@ -264,7 +264,7 @@
                 <div>[[global:LLC]]</div>
                 <div>[[global:TIN]]</div>
                 <div>
-                    [[global:Telephone]]: <a class="footer-telephone footer-main__link" href="tel:+79993331223">+7-999-333-12-23</a>
+                    [[global:Telephone]]: <a class="footer-telephone footer-main__link" href="[[links:Telephone]]">+7-999-333-12-23</a>
                 </div>
                 <div style="line-height: 1.8">
                     [[global:LLC_Address]]
