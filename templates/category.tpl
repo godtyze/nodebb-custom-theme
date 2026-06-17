@@ -70,3 +70,9 @@
 	{{{end}}}
 </div>
 
+<!-- IF !config.usePagination -->
+<noscript>
+	<!-- IMPORT partials/paginator.tpl -->
+</noscript>
+<!-- ENDIF !config.usePagination -->
+
