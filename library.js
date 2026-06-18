@@ -111,7 +111,7 @@ library.modifyCategory = function (config) {
 library.addCustomField = async function(hookData) {
   // Добавляем HTML-код поля в форму
   hookData.templateData.customField = {
-    name: 'topic_slug',
+    name: 'custom_topic_field',
     label: 'Custom Slug for topic url',
     placeholder: 'Enter value',
     required: false
@@ -123,11 +123,27 @@ library.saveCustomField = async function(hookData) {
   const { topic, data } = hookData;
 
   // Получаем значение из данных формы
-  const customValue = data.topic_slug || '';
+  const customValue = data.custom_topic_field || '';
 
   // Сохраняем как дополнительное поле темы
   if (customValue) {
-    await topic.setTopicField('topic_slug', customValue);
+    await topic.setTopicField('custom_topic_field', customValue);
+  }
+
+  return hookData;
+};
+
+library.getCustomField = async function(hookData) {
+  const { topics } = hookData;
+
+  if (topics && topics.length) {
+    for (const topic of topics) {
+      // Загружаем сохраненное значение
+      const customValue = await topic.getTopicField('custom_topic_field');
+      if (customValue) {
+        topic.custom_topic_field = customValue;
+      }
+    }
   }
 
   return hookData;
