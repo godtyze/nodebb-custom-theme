@@ -107,3 +107,28 @@ library.modifyCategory = function (config) {
     }
   }
 }
+
+library.addCustomField = async function(hookData) {
+  // Добавляем HTML-код поля в форму
+  hookData.templateData.customField = {
+    name: 'topic_slug',
+    label: 'Custom Slug for topic url',
+    placeholder: 'Enter value',
+    required: false
+  };
+  return hookData;
+};
+
+library.saveCustomField = async function(hookData) {
+  const { topic, data } = hookData;
+
+  // Получаем значение из данных формы
+  const customValue = data.topic_slug || '';
+
+  // Сохраняем как дополнительное поле темы
+  if (customValue) {
+    await topic.setTopicField('topic_slug', customValue);
+  }
+
+  return hookData;
+};
