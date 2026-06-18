@@ -5,10 +5,8 @@
 		{ "hook": "filter:config.get", "method": "getThemeConfig" },
 		{ "hook": "static:app.load", "method": "init" },
 		{ "hook": "filter:admin.header.build", "method": "addAdminNavigation" },
-		{ "hook": "filter:user.profileMenu", "method": "addProfileItem" },
-        { "hook": "filter:composer.build", "method": "addCustomField" },
-        { "hook": "filter:topic.create", "method": "saveCustomField" }
-    ],
+		{ "hook": "filter:user.profileMenu", "method": "addProfileItem" }
+	],
 	"scripts": [
 		"public/modules/autohidingnavbar.js",
 		"public/persona.js"
