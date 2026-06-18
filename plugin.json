@@ -7,13 +7,11 @@
 		{ "hook": "filter:admin.header.build", "method": "addAdminNavigation" },
 		{ "hook": "filter:user.profileMenu", "method": "addProfileItem" },
         { "hook": "filter:composer.build", "method": "addCustomField" },
-        { "hook": "filter:topic.create", "method": "saveCustomField" },
-        { "hook": "filter:topics.get", "method": "getCustomField" }
+        { "hook": "filter:topic.create", "method": "saveCustomField" }
     ],
 	"scripts": [
 		"public/modules/autohidingnavbar.js",
-		"public/persona.js",
-        "public/js/composer.js"
+		"public/persona.js"
 	],
 	"modules": {
 		"../admin/plugins/persona.js": "public/admin.js",
